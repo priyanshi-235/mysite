@@ -1,0 +1,68 @@
+/* relative positioning */
+/* .square1
+{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    position : relative;
+   left : 200px;
+}
+.square2
+{
+    height: 100px;
+    width: 100px;
+    background-color :blueviolet;
+       position : relative;
+   bottom : 100px;
+}
+.square3
+{
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+  position : relative;
+   bottom : 200px;
+  left : 100px
+}
+/* we could have made the display - inline-block so that the 3 div elements came in the same line and the just move them left or right, instead of using the top and bottom coordinates */
+/* img{
+    width : 300px;
+    position: absolute;
+    top : 30;
+    right : 30px
+} */
+.container
+{
+    background-color:white;
+    height: 300px;
+    width: 300px;
+}
+/* absolute positioning */
+.square4
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position : absolute;
+   left : 210px;
+   top : 270px;
+}
+
+.square6
+{
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+  position : absolute;
+   bottom : 300px;
+  left : 110px
+}
+.square5
+{
+    height: 100px;
+    width: 100px;
+    background-color :blueviolet;
+       position : fixed;
+   bottom : 400px;
+}
+/* fixed position */ 
